@@ -1,3 +1,6 @@
+$(document).ready(function(){
+	
+
 var dibujarGifts = function(data){
 	var gift = "";
 	var url = "";
@@ -37,4 +40,5 @@ $("#buscar-gift").click(function(event) {
 	$("#elementos").empty();
 	var gift = $("#gift-text").val();
 	ajaxGift(gift);
+});
 });
